@@ -52,7 +52,4 @@ def main():
     except requests.exceptions.RequestException as e:
         print(f"Error occurred while retrieving the webpage: {e}")
         
-
-
-
 main()
