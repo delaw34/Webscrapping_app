@@ -52,7 +52,7 @@ def main():
     except requests.exceptions.RequestException as e:
         print(f"Error occurred while retrieving the webpage: {e}")
         
-# The if _name_ == '_main_': condition ensures that the main() function is only executed if the script is run directly and not imported as a module.
 
-if __name__ == '__main__':
-    main()
+
+
+main()
